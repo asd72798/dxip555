@@ -1,0 +1,12 @@
+<style>
+    @font-face {
+        font-family: custom_font;
+        font-style: normal;
+        font-display: swap;
+        src: url(#{$cfg.font})
+    }
+
+    body, div, html, a, span {
+        font-family: custom_font !important;
+    }
+</style>
